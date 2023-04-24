@@ -4,10 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Asynchronous JavaScript</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="root">
+      <h1>Real-time Clock</h1>
+      <p id="clock"></p>
+      <p id="time-of-day"></p>
+
+      <form id="form-weather">
+        <input
+          type="text"
+          name="form-weather-input"
+          id="search-weather-input"
+        />
+        <button id="search-weather-btn" type="submit">Search</button>
+      </form>
+      <div id="clock"></div>
+      <div id="app"></div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
